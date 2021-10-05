@@ -44,20 +44,10 @@ html {
 
 body {
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  font-family: 'Arial', 'sans-serif';
-  font-size: 16px;
-  line-height: 1.5;
   margin: 0;
   padding: 0;
-  -webkit-transition: background-color 0.2s ease;
-  transition: background-color 0.2s ease;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 img {
